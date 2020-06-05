@@ -1,8 +1,10 @@
 # Interfaces fonctionnelles
 
-En Java, les interfaces fonctionnelles sont un ajout majeur disponibles depuis la version `1.8`.
+En Java, les interfaces fonctionnelles sont un ajout majeur disponible depuis la version `1.8`.
 Ce cours discutera de leur définition, de leur syntaxe et de leur utilité, le tout illustré à l'aide d'exemples, puis couvrira les principales interfaces fonctionnelles fournies par la librairie standard.
+
 ### Prérequis
+
 - Une relativement bonne connaissance en programmation orientée objet
 - Etre familier avec l'utilisation des interfaces, au moins théoriquement, c'est à dire :
 	- Comprendre le concept de `méthodes abstraites`
@@ -11,6 +13,7 @@ Ce cours discutera de leur définition, de leur syntaxe et de leur utilité, le 
 
 
 ## Définition
+
 Une interface fonctionnelle est une `interface` qui ne contient qu'une seule et unique méthode **abstraite**. Le nombre de méthodes possédant une implémentation par défaut (annotées du mot clé `default`) n'importe pas.
 
 Voici quelques exemples d'interfaces :

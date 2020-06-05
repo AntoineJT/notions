@@ -1,9 +1,8 @@
 # Abstraction
 
-L'idée de l'**abstraction**, c'est de découper une classe en morceaux, pour pouvoir partager (via un passage de paramètre dans une méthode par exemple) **un seul** de ces morceaux plutôt que l'objet "en entier". Pour comprendre l'utilité de ce principe et comment l'appliquer, prenons comme exemple une classe Humain, puisque c'est un truc qu'on connaît plutôt pas trop mal.
+L'idée de l'**abstraction**, c'est de découper une classe en morceaux, pour pouvoir partager (via un passage de paramètre dans une méthode par exemple) **un seul** de ces morceaux plutôt que l'objet « en entier ». Pour comprendre l'utilité de ce principe et comment l'appliquer, prenons comme exemple une classe Humain, puisque c'est quelque chose que l'on connaît relativement bien.
 
 ```java
-
 class Human {
   
     int air;
@@ -32,14 +31,17 @@ class Human {
 Imaginons maintenant que nous avons une classe `Hiking` qui nous permet d'organiser une marche entre humains. Un truc du style :
 
 ```java
-
 class Hiking {
   
     List<Human> participants;
 
-    public Hiking() { this.participants = new ArrayList<>(); }
+    public Hiking() { 
+        this.participants = new ArrayList<>(); 
+    }
 
-    void addParticipant(Human participant) { this.participants.add(participant); }
+    void addParticipant(Human participant) { 
+        this.participants.add(participant); 
+    }
 
     void moveAll() {
         for(Human human : participants) {
@@ -100,7 +102,6 @@ class Human implements Walking {
 Mais du coup, qu'est ce qui a changé ? Ben maintenant au lieu de faire une liste d'humains dans notre Randonnée, on va faire **une liste de Walking** (c'est quand même plus politiquement correct). Et y a presque rien à changer, c'est plutôt bon signe :
 
 ```java
-
 class Hiking {
   
     List<Walking> participants;
