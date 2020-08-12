@@ -12,6 +12,10 @@
 > **Légende** :
 > `📑` Fiche pratique · `📖` Cours
 
+## Git
+
+- `📑` [Contribuer à un projet Open Source](git/contribuer)
+
 ## Programmation orientée objet
 
 - `📑` [Abstraction - définition, utilité et exemples](poo/abstraction)
