@@ -8,10 +8,11 @@ Pour cela, il y a un certain nombre d'étapes à suivre avant d'y contribuer, et
 
 ## Pré-requis
 
-- Avoir installé Git ([lien officiel](https://git-scm.com/)) sur sa machine ;
+- Avoir installé Git ([Lien officiel](https://git-scm.com/)) sur sa machine ;
 - Savoir utiliser une application en console (CLI) ;
 - Savoir utiliser certaines commandes basiques de Git (clone, pull, push) ;
-- Avoir installé GitHub Desktop (Optionnel - Pas de support natif de Linux (se trouve cependant dans l'AUR) - [lien officiel](https://desktop.github.com/)).
+- Avoir installé GitHub Desktop (Optionnel - Pour linux, voir dans les community releases) - [Lien officiel](https://desktop.github.com/) - [Community Releases](https://github.com/desktop/desktop#community-releases)).
 
 ## Table des matières 
 
+- [Avant de contribuer](fr/AVANT_TOUT.md)
