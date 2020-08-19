@@ -6,7 +6,7 @@ Avant de contribuer à un projet open source, il faut prendre connaissances de c
 
 Ceci est la toute première chose à faire : lire attentivement le fichier lisez-moi. Il s'agit généralement d'un fichier markdown (dont l'extension est *.md*) ou d'un fichier texte (*.txt*). Il peut également s'agir de tout autre format disposant d'une prévisualisation GitHub, ou non : il peut, par exemple, s'appeller tout simplement *README* sans extension de fichier. La plupart du temps, il est affiché juste en dessous de l'arborescence du projet (prévisualition).
 
-Ce fichier est, comme son nom l'indique, destiné à fournir des informations cruciales sur le projet, telle que son nom, sa finalité, le lien du site web officiel, ou, potentiellement, comment y contribuer.
+Ce fichier est, comme son nom l'indique, destiné à fournir des informations cruciales sur le projet, telle que son nom, sa finalité, le lien du site web officiel, ou encore, potentiellement, comment y contribuer.
 
 ## 2. Prendre connaissance de la licence du projet
 
@@ -43,4 +43,12 @@ Malgré ces recherches, il se pourrait que vous n'ayiez pas utilisé les bons mo
 
 ## 4. Parcourir les pull requests
 
+D'exactement la même manière que pour les *issues*, vous devez chercher dans les *pull requests* ouvertes **mais également celles fermées**, afin d'être certain de ne pas passer à côté d'informations utiles, pouvant vous indiquer notamment que le *maintainer* n'est pas intéressé par une telle fonctionnalité, ou encore voir les remarques qu'il a fait à quelqu'un ayant fait une contribution assez similaire. Ne vous y attardez pas trop longtemps néanmoins, il ne s'agit pas de lire le contenu de toutes les *pull requests*, en particulier s'il y en a beaucoup.
 
+![Rechercher dans les pull requests](.images/chercher_pr.png)
+
+Tout comme pour les *issues*, n'oubliez pas de supprimer le filtre "is:open" afin de chercher dans les *pull requests* fermées également.
+
+## 5. Lire le code de conduite
+
+Ce fichier est appelé *CODE_OF_CONDUCT*
