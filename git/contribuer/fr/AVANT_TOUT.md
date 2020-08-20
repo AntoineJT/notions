@@ -43,7 +43,9 @@ Malgré ces recherches, il se pourrait que vous n'ayiez pas utilisé les bons mo
 
 ## 4. Parcourir les pull requests
 
-D'exactement la même manière que pour les *issues*, vous devez chercher dans les *pull requests* ouvertes **mais également celles fermées**, afin d'être certain de ne pas passer à côté d'informations utiles, pouvant vous indiquer notamment que le *maintainer* n'est pas intéressé par une telle fonctionnalité, ou encore voir les remarques qu'il a fait à quelqu'un ayant fait une contribution assez similaire. Ne vous y attardez pas trop longtemps néanmoins, il ne s'agit pas de lire le contenu de toutes les *pull requests*, en particulier s'il y en a beaucoup.
+D'exactement la même manière que pour les *issues*, vous devez chercher dans les *pull requests* ouvertes **mais également celles fermées**, afin d'être certain de ne pas passer à côté d'informations utiles, pouvant vous indiquer notamment que le *maintainer* n'est pas intéressé par une telle fonctionnalité, ou encore voir les remarques qu'il a fait à quelqu'un ayant fait une contribution assez similaire. 
+
+Ne vous y attardez pas trop longtemps néanmoins, il ne s'agit pas de lire le contenu de toutes les *pull requests*, en particulier s'il y en a beaucoup.
 
 ![Rechercher dans les pull requests](.images/chercher_pr.png)
 
@@ -51,4 +53,18 @@ Tout comme pour les *issues*, n'oubliez pas de supprimer le filtre "is:open" afi
 
 ## 5. Lire le code de conduite
 
-Ce fichier est appelé *CODE_OF_CONDUCT*
+Ce fichier est appelé *CODE_OF_CONDUCT* et tout comme la licence et le fichier lisez-moi, il s'agit généralement d'un fichier markdown ou d'un fichier texte avec ou sans extension de nom de fichier.
+
+Il donne des indications sur les bonnes attitudes à avoir, le langage à adopter lorsqu'on participe au projet de quelque sorte que ce soit, etc.
+
+**Il convient donc de lire ce fichier lorsqu'on ouvre ou commente une *issue* ou une *pull request* notamment**.
+
+**S'il n'y a pas de code de conduite, remettez vous-en à votre bon sens**. Si, par exemple, vous êtes particulièrement agressif ou que vous vous amusez à troller dans les *issues*, ne vous étonnez pas si vous vous faites bannir du projet en question.
+
+## 6. Lire les règles de contribution
+
+Les règles de contribution sont mises à disposition dans un fichier nommé *CONTRIBUTING*, le plus généralement un fichier markdown ou texte, tout comme pour le lisez-moi, la licence et le code de conduite.
+
+S'il n'y en a pas, regardez dans les *commits* et dans les *pull requests* fermées et acceptées. Essayez de vous en inspirer pour votre future contribution.
+
+**Dans tous les cas, respectez le *code style* en application**. 
