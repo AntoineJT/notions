@@ -18,7 +18,27 @@ Vous êtes censé l'avoir déjà lu, ne serait-ce qu'en diagonale, afin d'être 
 
 Si vous souhaitez contribuer pour améliorer le projet, et non par besoin (professionnel par exemple), cela est très bien également. Dans ce cas, vous n'êtes a priori pas pressé par le temps.
 
-## 3. Assurez-vous que le projet est toujours maintenu
+## 3. Prendre connaissance de la licence du projet
+
+Ce fichier est généralement appelé *LICENSE*, et comme le fichier lisez-moi, il s'agit généralement d'un fichier markdown ou d'un fichier texte, avec ou sans extension.
+Le plus souvent, il s'appelle tout simplement *LICENSE* sans extension de fichier.
+
+**S'il n'y a pas de licence, il vaut mieux ne pas contribuer**.
+En France, quand un projet n'est pas sous licence, le droit d'auteur s'applique. Vous n'avez donc légalement pas le droit de modifier le code mis à disposition.
+
+Pour connaître les modalités abrégées des licences les plus communes, vous pouvez vous référer à [ce site](https://choosealicense.com/licenses/).
+
+Pour des licences moins connues, vous devrez les lire ou vous renseigner sur Internet (voire contacter un juriste si le texte de la licence est complexe et que vous souhaitez être certain, bien que cela serait certainement disproportionné).
+
+Sur GitHub, si un projet utilise une des licences les plus communes, alors son nom sera indiqué à côté du langage majoritaire.
+
+![Licence preview 1](.images/licence_usuelle_preview1.png)
+
+De même, sur la page du projet, une telle licence verra son nom indiqué dans la section *About* à droite de l'arborescence des fichiers.
+
+![Licence preview 2](.images/licence_usuelle_preview2.png)
+
+## 4. Assurez-vous que le projet est toujours maintenu
 
 Si vous désirez modifier le projet de votre côté uniquement, vous n'avez pas besoin de vous intéresser à cette étape, cependant, étant donné que ce cours porte sur le fait de contribuer à un projet existant, maintenu par d'autres personnes, cela n'est certainement pas votre cas.
 
@@ -38,26 +58,6 @@ Vous pouvez également regarder la fréquence d'ajout/suppression de lignes. Cel
 ![Fréquence de code](.images/frequence_code.png)
 
 Si c'est le cas, et que vous avez néanmoins besoin de modifier ce projet, vous pouvez toujours en faire un *fork*, et le modifier de votre côté, sans proposer les modifications au dépôt original. Concrètement, vous ne ferez pas de *pull request* (explications plus loin) vers l'*upstream* (le dépôt dont vous avez fait un *fork*).
-
-## 4. Prendre connaissance de la licence du projet
-
-Ce fichier est généralement appelé *LICENSE*, et comme le fichier lisez-moi, il s'agit généralement d'un fichier markdown ou d'un fichier texte, avec ou sans extension.
-Le plus souvent, il s'appelle tout simplement *LICENSE* sans extension de fichier.
-
-**S'il n'y a pas de licence, il vaut mieux ne pas contribuer**.
-En France, quand un projet n'est pas sous licence, le droit d'auteur s'applique. Vous n'avez donc légalement pas le droit de modifier le code mis à disposition.
-
-Pour connaître les modalités abrégées des licences les plus communes, vous pouvez vous référer à [ce site](https://choosealicense.com/licenses/).
-
-Pour des licences moins connues, vous devrez les lire ou vous renseigner sur Internet (voire contacter un juriste si le texte de la licence est complexe et que vous souhaitez être certain, bien que cela serait certainement disproportionné).
-
-Sur GitHub, si un projet utilise une des licences les plus communes, alors son nom sera indiqué à côté du langage majoritaire.
-
-![Licence preview 1](.images/licence_usuelle_preview1.png)
-
-De même, sur la page du projet, une telle licence verra son nom indiqué dans la section *About* à droite de l'arborescence des fichiers.
-
-![Licence preview 2](.images/licence_usuelle_preview2.png)
 
 ## 5. Parcourir les issues
 
