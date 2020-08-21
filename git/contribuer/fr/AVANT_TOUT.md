@@ -10,7 +10,11 @@ Ce fichier est, comme son nom l'indique, destiné à fournir des informations cr
 
 Vous êtes censé l'avoir déjà lu, ne serait-ce qu'en diagonale, afin d'être certain que ce projet réponde à vos besoins.
 
-## 2. Vérifiez que vous avez réellement besoin de contribuer
+## 2. Documentez-vous sur le projet
+
+Si vous connaissez déjà le projet, et que par conséquent, vous avez déjà lu la documentation, vous pouvez évidemment passer cette étape.
+
+Afin d'éviter de contribuer dans le vide, il convient de se renseigner suffisament pour être certain que ce que vous désirez n'existe pas déjà. Lire la documentation est une bonne manière d'achever ce but.
 
 **Même si vous êtes pressé par le temps, il vaut mieux vous renseigner sur le projet en lisant la documentation**. Il est plus rapide de lire la documentation que de contribuer à un projet.
 
@@ -57,20 +61,20 @@ Vous pouvez également regarder la fréquence d'ajout/suppression de lignes. Cel
 
 ![Fréquence de code](.images/frequence_code.png)
 
-Si c'est le cas, et que vous avez néanmoins besoin de modifier ce projet, vous pouvez toujours en faire un *fork*, et le modifier de votre côté, sans proposer les modifications au dépôt original. Concrètement, vous ne ferez pas de *pull request* (explications plus loin) vers l'*upstream* (le dépôt dont vous avez fait un *fork*).
+S'il s'avère que le projet est malheureusement abandonné, et que vous avez néanmoins besoin de le modifier, vous pouvez toujours en faire un *fork*, et l'altérer de votre côté, sans proposer les changements au dépôt original. Concrètement, vous ne ferez pas de *pull request* vers l'*upstream*, le dépôt dont vous avez fait un *fork*. Si vous ne comprenez pas cette phrase pour l'instant, vous n'aurez qu'à la relire après avoir lu ce cours entièrement, et vous serez en mesure de la comprendre.
 
 ## 5. Parcourir les issues
 
 Les *issues* sont des discussions permettant de signaler des bugs, de proposer des modifications telles que de nouvelles fonctionnalités, des améliorations du code source, etc.
 Elles peuvent également servir à obtenir du support, ce qui ne nous intéresse pas spécialement ici.
 
-Utilisez la fonctionnalité de recherche pour chercher si une *issue* portant sur ce que vous souhaitez ajouter ou corriger a déjà été ouverte.
+Utilisez la fonctionnalité de recherche pour chercher si une *issue* portant sur ce que vous souhaitez ajouter ou corriger a déjà été ouverte. Lorsque vous rencontrez un problème technique, suivez la même procédure.
 
 **Cherchez également dans les *issues* fermées**. Enlevez le filtre "is:open" pour rechercher également dans les *issues* fermées.
 
 ![Rechercher dans les issues](.images/chercher_issues.png)
 
-Malgré ces recherches, il se pourrait que vous n'ayiez pas utilisé les bons mots-clés ou que l'auteur de l'*issue* n'ait pas utilisé des mots-clés significatifs. Dans ce cas, il se pourrait qu'un *maintainer* marque votre *issue* comme dupliquée (par défaut l'étiquette (le *label*) *duplicated*). N'oubliez pas de parcourir les *pull requests* de la même manière afin de réduire ce risque également.
+Malgré ces recherches, il se pourrait que vous n'ayiez pas utilisé les bons mots-clés ou que l'auteur de l'*issue* n'ait pas utilisé des termes significatifs. Dans ce cas, il se pourrait qu'un *maintainer* marque votre *issue* comme dupliquée (par défaut l'étiquette, le *label*, *duplicated*). N'oubliez pas de parcourir les *pull requests* de la même manière afin de réduire ce risque également. Vous risqueriez effectivement de faire perdre du temps au *maintainer* ou aux contributeurs, ce qui ne serait pas une bonne entrée en matière.
 
 ## 6. Parcourir les pull requests
 
