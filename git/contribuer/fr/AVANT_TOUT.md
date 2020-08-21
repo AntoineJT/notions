@@ -1,6 +1,6 @@
 # Avant de contribuer
 
-Avant de contribuer à un projet open source, il faut prendre connaissances de certaines informations.
+Avant de contribuer à un projet open source, il faut prendre connaissance de certaines informations.
 
 ## 1. Lire le README
 
