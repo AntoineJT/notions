@@ -33,7 +33,7 @@ De même, sur la page du projet, une telle licence verra son nom indiqué dans l
 Les *issues* sont des discussions permettant de signaler des bugs, de proposer des modifications telles que de nouvelles fonctionnalités, des améliorations du code source, etc.
 Elles peuvent également servir à obtenir du support, ce qui ne nous intéresse pas spécialement ici.
 
-Utilisez la fonctionnalité de recherche pour chercher si une issue portant sur ce que vous souhaitez ajouter ou corriger a déjà été ouverte.
+Utilisez la fonctionnalité de recherche pour chercher si une *issue* portant sur ce que vous souhaitez ajouter ou corriger a déjà été ouverte.
 
 **Cherchez également dans les *issues* fermées**. Enlevez le filtre "is:open" pour rechercher également dans les *issues* fermées.
 
@@ -42,6 +42,8 @@ Utilisez la fonctionnalité de recherche pour chercher si une issue portant sur 
 Malgré ces recherches, il se pourrait que vous n'ayiez pas utilisé les bons mots-clés ou que l'auteur de l'*issue* n'ait pas utilisé des mots-clés significatifs. Dans ce cas, il se pourrait qu'un *maintainer* marque votre *issue* comme dupliquée (par défaut l'étiquette (le *label*) *duplicated*). N'oubliez pas de parcourir les *pull requests* de la même manière afin de réduire ce risque également.
 
 ## 4. Parcourir les pull requests
+
+Une *pull request* sert à proposer des modifications ayant été effectuées sur notre *fork*. Un *fork* est une copie d'un projet, sur un compte utilisateur ou une organisation GitHub par exemple, pour lequel le compte sur lequel il est situé a la permission de faire des modifications. Concrètement, il s'agit d'une copie avec droit d'écriture : vous pouvez donc *commit* et *push* sur votre *fork*.
 
 D'exactement la même manière que pour les *issues*, vous devez chercher dans les *pull requests* ouvertes **mais également celles fermées**, afin d'être certain de ne pas passer à côté d'informations utiles, pouvant vous indiquer notamment que le *maintainer* n'est pas intéressé par une telle fonctionnalité, ou encore voir les remarques qu'il a fait à quelqu'un ayant fait une contribution assez similaire. 
 
